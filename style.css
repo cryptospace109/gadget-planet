@@ -1,0 +1,132 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .banner {
+    /* Styling for the banner */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Added */
+    justify-content: flex-start; /* Added */
+    align-items: center; /* Added */
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border-radius: 0;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    width: 200px;
+  }
+  
+  nav ul ul li {
+    width: 100%;
+    display: block;
+  }
+  
+  nav ul ul li a {
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #666;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Font Awesome */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+  
+  /* Additional CSS styling and 3D rendering can be added here */
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    overflow-x: scroll;
+  }
+  
+  .product-list-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-tile {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .product-tile img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Additional CSS styling and 3D rendering can be added here */
+    
